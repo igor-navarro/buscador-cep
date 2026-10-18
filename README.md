@@ -16,6 +16,16 @@ Programa em Python que consulta o endereço de um CEP usando a API pública [Via
 - [requests](https://pypi.org/project/requests/)
 - SQLite (já vem com o Python)
 
+## Estrutura do projeto
+
+```
+buscador-cep/
+├── buscador_cep.py   # código principal
+├── requirements.txt  # dependências
+├── README.md         # documentação
+└── .gitignore        # ignora o historico.db
+```
+
 ## Como rodar
 
 1. Clone o repositório:
